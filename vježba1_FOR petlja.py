@@ -13,5 +13,3 @@ for x in range (10):    #10 kretanja brzine, gdje pratimo poziciju automobila u 
     elif trenutna_pozicija < cilj:
         print("Niste još stigli")
     trenutna_pozicija += brzina
-    import time     #dodavanje komande koja nije korišćena
-    time.sleep (0.5)  #komanda posredstvom koje se kod linija koda izvršava svakih pola sekunde
