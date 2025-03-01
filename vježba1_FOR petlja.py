@@ -3,7 +3,7 @@ cilj = 50
 trenutna_pozicija = 0
 brzina = 10
 
-for x in range (10):    #10 kretanja brzine, gdje pratimo poziciju automobila u odnosu na poziciju
+for x in range (20):    #10 kretanja brzine, gdje pratimo poziciju automobila u odnosu na poziciju
     print(trenutna_pozicija)
     if trenutna_pozicija == cilj:
         print("Stigao do cilja")
